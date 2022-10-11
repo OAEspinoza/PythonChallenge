@@ -13,6 +13,7 @@ values=[] #creates list to store profit and loss values
 dates=[] #creates list to store dates in a list
 max_increase=0
 max_decrease=0
+
 # Open the CSV
 with open(csvpath,newline="") as csvfile:
     # Set path for file
