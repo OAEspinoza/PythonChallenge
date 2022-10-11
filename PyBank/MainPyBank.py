@@ -42,7 +42,7 @@ average_changes=f'{total_changes/(month_counter-1):,.2f}'
 max_increase=f'{max_increase:,.2f}'
 max_decrease=f'{max_decrease:,.2f}'
 
-# Print results
+# Print results to terminal
 print("Total months: "+str(month_counter))
 print("Notal net profit/loss: $"+str(net_total))
 print("Average change: $"+str(average_changes))
