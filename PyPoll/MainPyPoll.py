@@ -32,7 +32,7 @@ for y in range(0,len(unique_list)):
 
 # Count votes per candidate
 for i in range(0,len(unique_list)):
-    for j in range(0,total_votes_counter-1):
+    for j in range(0,total_votes_counter):
         if names[j]==unique_list[i]:
             votes[i]+=1
 
