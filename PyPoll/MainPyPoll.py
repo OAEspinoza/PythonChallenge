@@ -50,7 +50,7 @@ print("-------------------")
 print("Total votes cast: "+f'{total_votes_counter:,}') # formats output with thousands separator, and no decimals
 print("-------------------")
 for i in range(0,len(unique_list)):
-        print(unique_list[i]+": "+f'{votes[i]:,}'+" votes"+", "+f'{(votes[i]/total_votes_counter)*100:,.2f}'+"%")   # str(votes[i]/total_votes_counter)+"% of total votes cast")
+        print(unique_list[i]+": "+f'{votes[i]:,}'+" votes"+", "+f'{(votes[i]/total_votes_counter)*100:,.2f}'+"%") 
 print("-------------------")
 print("The election winner is: "+winner+" with "+f'{winner_votes:,}'+" votes")
 
@@ -65,7 +65,7 @@ f.write("\n")
 f.write("-------------------")
 f.write("\n")
 for i in range(0,len(unique_list)):
-        f.write(unique_list[i]+": "+f'{votes[i]:,}'+" votes"+", "+f'{(votes[i]/total_votes_counter)*100:,.2f}'+"%")   # str(votes[i]/total_votes_counter)+"% of total votes cast")
+        f.write(unique_list[i]+": "+f'{votes[i]:,}'+" votes"+", "+f'{(votes[i]/total_votes_counter)*100:,.2f}'+"%")
         f.write("\n")
 f.write("-------------------")
 f.write("\n")
